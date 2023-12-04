@@ -1,0 +1,36 @@
+{
+  LinearLayout;
+  orientation="vertical";
+  layout_height="fill";
+  layout_width="fill";
+  {
+    TextView;
+    text="输入路径";
+    gravity="center";
+    textSize="20";
+    layout_width="fill";
+  };
+  {
+    EditText;
+    id="InputPath";
+    layout_width="fill";
+  };
+  {
+    TextView;
+    layout_width="fill";
+    gravity="center";
+    textSize="20";
+    text="输出路径";
+  };
+  {
+    EditText;
+    layout_width="fill";
+    id="OutPath";
+  };
+  {
+    Button;
+    text="输出";
+    layout_width="fill";
+    id="Out";
+  };
+}
