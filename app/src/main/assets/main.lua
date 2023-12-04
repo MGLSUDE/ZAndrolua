@@ -1234,7 +1234,7 @@ func.java = function()
   activity.newActivity("javaapi/main")
 end
 func.gitWebsite=function()
-  activity.startActivity(Intent("android.intent.action.VIEW",Uri.parse("https://github.com/MGLSIDE/ZAndrolua")))
+  activity.startActivity(Intent("android.intent.action.VIEW",Uri.parse("https://github.com/MGLSUDE/ZAndrolua")))
 end
 func.openjavaenweb=function ()
   activity.startActivity(Intent("android.intent.action.VIEW",Uri.parse("https://www.java.com/en/")))
